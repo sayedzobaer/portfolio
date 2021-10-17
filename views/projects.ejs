@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include ./partials/header %>
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <% include ./partials/navmenu %>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">
+          My Projects
+        </h2>
+        <hr class="star-dark mb-5" />
+        <div class="card-group">
+          <div class="card mx-4 text-white bg-secondary">
+            <img
+              src="/static/img/portfolio/project1.png"
+              class="card-img-top"
+              alt="Web Design"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">
+                Comp213-Web Interface Design
+              </h5>
+              <p class="card-text">
+                - Designed several pages 
+              </p>
+              <p class="card-text">
+                - Designed dashboard Page 
+              </p>
+              <p class="card-text">
+                - Designed log in page 
+              </p> 
+            </div>
+          </div>
+          <div class="card mx-4 text-white bg-secondary">
+            <img
+              src="/static/img/portfolio/project2.png"
+              class="card-img-top"
+              alt="Web Design"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Member Registration</h5>
+              <p class="card-text">- Developed Registeration page</p>
+              <p class="card-text">- Developed login page</p>
+            </div>
+          </div>
+          <div class="card mx-4 text-white bg-secondary">
+            <img
+              src="/static/img/portfolio/project3.png"
+              class="card-img-top"
+              alt="Web Design"
+              height="200"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">JOMI Website</h5>              
+              <p class="card-text">
+                - Implemented different prices of articles for different regions
+              </p>
+              <p class="card-text">
+                - Designed mongoDB database and implemented using Mongoose Worked
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <% include ./partials/footer %>
+  </body>
+</html>
